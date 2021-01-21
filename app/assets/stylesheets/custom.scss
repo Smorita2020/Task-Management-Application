@@ -52,8 +52,8 @@ p {
 
 /* ヘッダー */
 
-.haikei {
-  background-color: #008080;
+#header {
+  background-color: teal;
 }
 
 #logo {
@@ -61,16 +61,22 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: none;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-  font-style: italic;
+  &:hover {
+    color: silver;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: #080808;
-  text-decoration: none;
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+    color: silver !important;
+  }
 }
 
 /* デバッグウインドウ */
